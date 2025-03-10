@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Web Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-blue-800 text-white p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Real Estate Co.</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-blue-300">Home</a></li>
+                    <li><a href="#" class="hover:text-blue-300">Properties</a></li>
+                    <li><a href="#" class="hover:text-blue-300">About Us</a></li>
+                    <li><a href="#" class="hover:text-blue-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-96">
+        <img src="./images/hero.jpg" alt="Hero Image" class="w-full h-full object-cover">
+        <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <h2 class="text-white text-4xl font-bold">Find Your Dream Home</h2>
+        </div>
+    </section>
+
+    <!-- Property Listings -->
+    <main class="container mx-auto p-6">
+        <h2 class="text-2xl font-bold mb-4">Featured Properties</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/img1.jpeg" alt="Property 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Beautiful Family House</h3>
+                    <p class="text-gray-600">$500,000</p>
+                    <p class="text-gray-700">4 beds • 3 baths • 2,500 sqft</p>
+                    <button class="mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">View Details</button>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/img2.jpeg" alt="Property 2" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Modern Apartment</h3>
+                    <p class="text-gray-600">$350,000</p>
+                    <p class="text-gray-700">2 beds • 2 baths • 1,200 sqft</p>
+                    <button class="mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">View Details</button>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/img4.jpeg" alt="Property 3" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold">Luxury Villa</h3>
+                    <p class="text-gray-600">$1,200,000</p>
+                    <p class="text-gray-700">5 beds • 4 baths • 4,000 sqft</p>
+                    <button class="mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">View Details</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-800 text-white p-6 text-center">
+        <p>&copy; 2023 Real Estate Co. All rights reserved.</p>
+        <div class="flex justify-center space-x-4">
+            <a href="#" class="hover:text-blue-300">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-300">Terms of Service</a>
+                <a href="#" class="hover:text-blue-300">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>
